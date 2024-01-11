@@ -1,0 +1,155 @@
+/* Define a variable */
+:root {
+  --primary-color: #77fbb9;
+  --main-color: #3498db;
+  --font-family: "Ambit";
+  --White: #fff;
+  --black: #000;
+}
+
+/* Reset some default styles */
+body,
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2 {
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 100%; /* 50px */
+}
+
+/* Apply a box-sizing border-box model globally */
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+/* Basic styling */
+body {
+  font-family: "Arial", sans-serif;
+  line-height: 1.6;
+  width: 100%;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: bold;
+}
+
+/* Container styling */
+.container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 70px;
+}
+
+/* Responsive design breakpoints */
+/* Small devices (phones) */
+@media (max-width: 576px) {
+  /* Add specific styles for small devices */
+}
+
+/* Medium devices (tablets) */
+@media (min-width: 577px) and (max-width: 768px) {
+  /* Add specific styles for medium devices */
+}
+
+/* Large devices (desktops) */
+@media (min-width: 769px) and (max-width: 992px) {
+  /* Add specific styles for large devices */
+}
+
+/* Extra large devices (large desktops) */
+/* @media (min-width: 993px) { */
+/* Add specific styles for extra large devices */
+
+/* header section */
+.top-nav {
+  display: flex;
+  width: 100%;
+  padding: 10px;
+  justify-content: space-between;
+  align-items: center;
+  gap: 3px;
+  background: var(--black);
+  color: var(--White);
+}
+
+.top-nav p {
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 140%;
+}
+.language-bar {
+  margin-right: 10px;
+}
+
+.main-nav {
+  display: flex;
+  width: 100%;
+  padding: 10px 30px;
+  justify-content: space-between;
+  align-items: center;
+  background: beige;
+}
+
+.main-nav .log img {
+  width: 291px;
+  height: 32px;
+  flex-shrink: 0;
+}
+
+.menu ul {
+  display: flex;
+  gap: 35px;
+  margin-right: 150px;
+}
+
+.menu ul li {
+  list-style-type: none;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  color: var(--black);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.menu-action {
+  display: flex;
+  align-items: center;
+  gap: 26px;
+}
+.menu-action button {
+  padding: 10px 15px;
+  border-radius: 20px;
+  border: none;
+  background: var(--primary-color);
+}
+.menu-action .cart {
+  text-transform: uppercase;
+}
+
+/* hero section style */
+.hero {
+  background-image: url("https://s3-alpha-sig.figma.com/img/c090/0326/70dc558c0cab67fd8e7617c34a7eee3b?Expires=1705881600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=JkXY5tEPZ8-VokebDZv5LxS58ynvV441t7315LWk4FAiAXdnI5TUFAIlMQdjN4w4y9Vkyap9kBtXWlB78Sr-Bux2g6d8qGQ3jpSQ3VFLXVB2iHd50ny7f4iUEmZl2CI2KJkxyq4W5ktXxNIb5ftnM647m6qxw~qeGojsYTKGtbwzTLU-Qe90s-30Ioznjc7pXchoQ8mHWfNvg8qbrMDE17q42Qyz3j1u2WpBlMzEPrekKWDMUoMysAIKPM-rqeZ~Np8BC7kt8xqzYQU~c5kyvVPxNX2dP0tdScos8DndLUZDZ~vlVUSPxieRDi4tlNVWgp1nor3-MbHrevmEMHt9lw__");
+  width: 100%;
+  height: 621.476px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* } */
