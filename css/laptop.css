@@ -1,0 +1,635 @@
+
+
+/* Large devices (desktops) */
+@media (min-width: 769px) and (max-width: 1200px) {
+  .top-nav {
+    background: red;
+    display: flex;
+    width: 100%;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3px;
+    color: var(--White);
+  }
+
+  .language-bar {
+    margin-right: 10px;
+  }
+
+  .main-nav {
+    display: flex;
+    width: 100%;
+    padding: 5px 20px;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .main-nav .logo img {
+    width: 180px !important;
+    height: 32px;
+    flex-shrink: 0;
+  }
+
+  .menu ul {
+    display: flex;
+    gap: 10px;
+    margin-right: 5px;
+  }
+
+  .menu ul li {
+    list-style-type: none;
+  }
+
+  .menu ul li a {
+    text-decoration: none;
+    color: var(--black);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+  }
+
+  .menu-action {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .menu-action button {
+    padding: 7px 7px;
+    border-radius: 20px;
+    font-size: 16px;
+    background: var(--primary-color);
+  }
+  .menu-action .cart {
+    text-transform: uppercase;
+  }
+
+  .lifestyle-container {
+    overflow: hidden;
+    padding-left: 10px;
+  }
+  .left-section h4 {
+    font-size: 30px;
+    font-weight: 400;
+  }
+  .left-section {
+    width: 260px;
+  }
+  .slider-card {
+    position: relative;
+    width: 300px;
+    margin-top: 20px;
+    min-height: 260px;
+    padding: 10px 10px;
+    border-radius: 12px;
+    border: 1px dashed var(--black, #000);
+    background: var(--White, #fff) !important;
+    color: var(--black);
+    font-style: normal;
+  }
+
+  /* Explore the collection section  */
+
+  .explore-collection-container {
+    margin-top: 60px;
+    padding: 0px 10px;
+  }
+
+  .collection-img-1 {
+    position: relative;
+    width: 350px;
+    height: 500.372px;
+  }
+
+  .collection-img-2 {
+    position: relative;
+    width: 350px;
+    height: 500.372px;
+  }
+
+  /* feel-great section style  */
+  .feel-great-container {
+    min-height: 646.494px;
+    background: #2f4327;
+    display: flex;
+    align-items: center;
+    margin-top: 83px;
+  }
+  .feel-great {
+    display: flex;
+    gap: 30px;
+  }
+
+  .feel-great .right-content {
+    margin-top: 40px;
+  }
+  .feel-great .right-content h1 {
+    color: var(--White);
+    font-size: 30px;
+    line-height: 110%;
+    font-style: normal;
+    font-weight: 400;
+    /* 55px */
+  }
+  .feel-great .right-content p {
+    color: var(--White);
+    font-size: 13px;
+    margin-top: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+  }
+  .feel-great .right-content ul {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    padding: 0px;
+    margin-bottom: 15px;
+  }
+  .feel-great .right-content ul li {
+    color: var(--White);
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 25.2px */
+  }
+  .feel-great .right-content ul li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .feel-great .right-content ul li img {
+    width: 20px;
+    height: 20px;
+  }
+
+  .feel-great img {
+    width: 435.895px;
+    height: 400.218px;
+  }
+
+  .feel-great .right-content .our-stor-btn {
+    padding: 10px 18px 10px 18px;
+    margin-left: 0px;
+    text-align: center;
+  }
+
+  .feel-great-div {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+  }
+
+  .fel-great-btn {
+    padding: 10px 10px 10px 15px;
+  }
+
+  /* review section  */
+
+  .review-container {
+    margin-top: 57px;
+    min-height: 346px;
+  }
+  .review-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+  }
+
+  .review-container .review-single-card {
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px dashed var(--black);
+    background: var(--White);
+    color: var(--black);
+    font-style: normal;
+  }
+
+  /* super foods style */
+
+  .super-foods {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+  }
+
+  .super-foods-slider {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .container {
+    padding: 0px;
+  }
+  .supper-foods-details h1 {
+    font-size: 30px;
+    line-height: 110%;
+    margin-bottom: 20px;
+  }
+  .supper-foods-details p {
+    font-size: 16px;
+    font-style: normal;
+    line-height: 140%;
+  }
+
+  .super-foods-img img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .super-foods-card .card-details h4 {
+    text-align: center;
+  }
+
+  .super-foods-card .card-details p {
+    text-align: center;
+  }
+
+  /* use vs them  section style */
+
+  .us-vs-them {
+    position: relative;
+    margin-top: 90px;
+    min-height: 646.494px;
+    background: #f4f1ea;
+  }
+  .bg-circle {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+  }
+  .us-vs-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 45px 10px;
+    height: 100%;
+  }
+
+  .us-content img {
+    width: 300px;
+    height: 200.275px;
+  }
+
+  .us-content h1 {
+    font-weight: 400;
+    font-size: 30px;
+  }
+  .us-content p {
+    font-size: 16px;
+    width: 308.409px;
+  }
+  .us-them-list {
+    margin-left: 0px;
+  }
+  .foods-list {
+    gap: 6px;
+  }
+  .foods-list .list {
+    width: 100px;
+    padding: 5px 3px;
+    border-radius: 15px 0px 0px 15px;
+    background: var(--Black, #000);
+    color: var(--White, #fff);
+    text-align: center;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+  }
+  .react-list {
+    width: 170px;
+
+    height: 444.793px;
+    color: white;
+    flex-shrink: 0;
+    border-radius: 40px;
+    border: 1px dashed var(--White, #fff);
+    background: var(--Black, #000);
+  }
+  .react-list-logo img {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    width: 130px !important;
+  }
+  .react-list-item {
+    display: flex;
+    width: 150px;
+    padding: 3px;
+    gap: 7px;
+    text-align: center;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%; /* 18.2px */
+  }
+  .react-list-dropdown {
+    display: flex;
+    width: 130px;
+    padding: 5px;
+    font-size: 14px;
+    border-radius: 15px;
+    border: 1px solid var(--Black, #000);
+    background: var(--White, #fff);
+    margin-top: -10px;
+  }
+  .other-list {
+    width: 170px;
+    height: 444.793px;
+    flex-shrink: 0;
+    border-radius: 40px;
+    background: var(--White, #fff);
+  }
+
+  /* put your order section style */
+  .put-your-order {
+    display: flex;
+    gap: 20px;
+    margin-top: 100px;
+    padding: 0px 5px;
+  }
+  .put-order-content {
+    padding-top: 35px;
+  }
+
+  .put-order-content h1 {
+    text-align: center;
+    font-size: 30px;
+  }
+  .put-order-content p {
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 18px;
+    line-height: 140%; /* 25.2px */
+  }
+  .put-order-step {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 22px;
+  }
+  .step img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .step p {
+    text-align: center;
+    margin-top: 5px;
+    width: 89.736px;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+  }
+  .put-order-btn {
+    font-size: 17px;
+  }
+  .order-card p {
+    font-weight: 400;
+  }
+
+  .put-order-image {
+    position: relative;
+  }
+  .put-order-image img {
+    width: 430px;
+    height: 550.887px;
+  }
+  .order-image-card {
+    display: flex;
+    width: 400px;
+    padding: 5px 5px;
+    flex-direction: column;
+    position: absolute;
+    align-items: flex-start;
+    gap: 5px;
+    align-items: center;
+    border-radius: 12px;
+    background: var(--White, #fff);
+    z-index: 2;
+    bottom: 26px;
+    left: 20px;
+  }
+  .order-card-container {
+    display: flex;
+    padding: 7px 0px;
+    justify-content: space-between;
+    width: 100%;
+    border-top: 1px dashed black;
+    border-bottom: 1px dashed black;
+  }
+  .order-card {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    padding: 0px 6px;
+  }
+
+  .order-card img {
+    width: 46.309px;
+    height: 46.309px;
+    flex-shrink: 0;
+    border-radius: 46.309px;
+  }
+  .calorie-list {
+    position: absolute;
+    z-index: 2;
+    top: 39px;
+    right: 23px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  .calorie-list img {
+    width: 70.439px;
+    height: 70.439px;
+    flex-shrink: 0;
+  }
+
+  /* good for you section style */
+
+  .good-for-you {
+    background-image: url("/images/goodfroyou/f2f8920ba0fade9f0f464eec555f69e2.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    background-repeat: no-repeat;
+    min-height: 496.061px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    position: relative;
+  }
+  .good-for-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+    color: var(--White);
+  }
+
+  .good-for-you-left-img {
+    position: absolute;
+    bottom: 0px;
+    left: 5px;
+  }
+
+  .good-for-you-right-img {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    z-index: 1;
+    display: none;
+  }
+
+  .good-for-you-right-img .img-1 {
+    position: relative;
+  }
+
+  /* the kitchen section style */
+  .the-kitchen {
+    display: flex;
+    margin-top: 43px;
+    font-weight: 400;
+  }
+  .the-kitchen-content h1 {
+    line-height: 110%;
+    margin-bottom: 70px;
+    font-weight: 400;
+    font-size: 30px;
+    font-style: normal;
+    margin-top: 10px;
+  }
+  .the-kitchen-content p {
+    font-size: 16px;
+    line-height: 150%;
+    margin-bottom: 25px;
+    font-weight: 400;
+    font-style: normal;
+    width: 370px;
+  }
+  .the-kitchen-image img {
+    width: 400px;
+    height: 430px;
+    margin-left: -50px;
+  }
+  /* wholesome section style */
+
+  .wholesome {
+    margin-top: 80px;
+  }
+  .wholesome-container {
+    margin-top: 43px;
+    margin-bottom: 13px;
+    display: flex;
+    gap: 5px;
+    overflow-x: hidden;
+  }
+  .wholesome-head h1 {
+    font-weight: 400;
+    font-size: 30px;
+    font-style: normal;
+  }
+  .wholesome-head span {
+    display: inline-flex;
+    padding: 10px 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 50px;
+    border: 1px solid var(--Black, #000);
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+  }
+
+  /* footer style */
+
+  footer {
+    padding: 50px 15px;
+    min-height: 654.786px;
+    background: var(--Black, #000);
+    color: var(--White);
+  }
+
+  .footer-btn {
+    width: 100px;
+    padding: 10px;
+    font-size: 13px;
+    border-radius: 5px;
+    background: #77fbb9;
+  }
+  .footer-input {
+    width: 200px;
+    padding: 10px;
+    align-items: center;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid var(--White) !important;
+  }
+  .footer-sub-input {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .top-footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+  }
+  .top-footer .heading {
+    font-size: 13px;
+    margin-bottom: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%; /* 18.2px */
+  }
+
+  .col-1 h3 {
+    font-size: 32px;
+    line-height: 130%;
+    margin-bottom: 10px;
+  }
+
+  .col-1 p {
+    font-size: 16px;
+    line-height: 140%;
+    margin-bottom: 16px;
+    width: 350px;
+  }
+  .footer-hr {
+    height: 1px;
+    background: var(--black);
+    border: 1px dashed white;
+    margin-top: 80px;
+  }
+  .footer-bottom {
+    margin-top: 30px;
+  }
+  .footer-bottom img {
+    margin-top: 30px;
+    margin-bottom: 48px;
+  }
+  .bottom-head p {
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+  }
+
+
+
+ 
+  
+}

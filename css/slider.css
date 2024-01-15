@@ -1,0 +1,54 @@
+.swiper {
+  width: 100%;
+  height: 100%;
+ 
+}
+#review-slide-wrapper .swiper-slide {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  width:271px !important ;
+  min-height: 317px !important ;
+ 
+}
+.lifestyles-wrapper {
+  display: flex;
+  gap: 30px;
+  padding: 0px 40px;
+  width: 1000px !important;
+}
+
+.review-slide {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  padding: 20px 0px;
+
+
+}
+
+#review-slide-wrapper {
+   
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  gap: 30px !important;
+}
+
+.review-single-card {
+  width: 273px !important;
+}
+
+
+@media  (max-width: 576px) {
+
+.swiper-slide {
+  display: flex;
+  align-items: start !important;;
+  justify-content: center;
+  width: 330px !important;
+ 
+}
+}

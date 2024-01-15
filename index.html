@@ -6,7 +6,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Whole Supp</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+  <link rel="stylesheet" href="css/slider.css">
   <link rel="stylesheet" href="/css/style.css" />
+  <link rel="stylesheet" href="/css/mobile.css" />
+  <link rel="stylesheet" href="/css/laptop.css" />
+  <link rel="stylesheet" href="/css/tablet.css" />
+
 </head>
 
 <body>
@@ -23,9 +29,16 @@
       </div>
       <div class="main-nav">
         <div class="logo">
+          <div class="menu-bar">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="16" viewBox="0 0 30 16" fill="none">
+              <line x1="0.951599" y1="1.25" x2="29.9516" y2="1.25" stroke="black" stroke-width="1.5" />
+              <line x1="0.951599" y1="8.25" x2="29.9516" y2="8.25" stroke="black" stroke-width="1.5" />
+              <line x1="0.951599" y1="15.25" x2="29.9516" y2="15.25" stroke="black" stroke-width="1.5" />
+            </svg>
+          </div>
           <img src="/images/logo/Logo.svg" alt="" />
         </div>
-       
+
         <div class="menu">
           <ul>
             <li><a href="#">SHOP</a></li>
@@ -135,210 +148,180 @@
           <div class="left-section">
             <h4>Designed for athletes & active lifestyles</h4>
             <div class="slider-count">
-              <svg class="custom-button-prev" style="cursor: pointer;"  xmlns="http://www.w3.org/2000/svg" width="51" height="50" viewBox="0 0 51 50" fill="none">
+              <svg class="custom-button-prev" style="cursor: pointer;" xmlns="http://www.w3.org/2000/svg" width="51"
+                height="50" viewBox="0 0 51 50" fill="none">
                 <rect x="1.26074" y="0.5" width="49" height="49" rx="24.5" stroke="black" />
                 <path d="M27.7607 21L23.7607 25L27.7607 29" stroke="black" stroke-width="2" stroke-linejoin="round" />
               </svg>
               <div class="swiper-counter"></div>
-              <svg class="custom-button-next" style="cursor: pointer;" xmlns="http://www.w3.org/2000/svg" width="51" height="50" viewBox="0 0 51 50" fill="none">
+              <svg class="custom-button-next" style="cursor: pointer;" xmlns="http://www.w3.org/2000/svg" width="51"
+                height="50" viewBox="0 0 51 50" fill="none">
                 <rect x="1.26074" y="0.5" width="49" height="49" rx="24.5" stroke="black" />
                 <path d="M23.7607 29L27.7607 25L23.7607 21" stroke="black" stroke-width="2" stroke-linejoin="round" />
               </svg>
             </div>
           </div>
 
-          <!-- Swiper -->
-
-          <!-- <div class="slider-section">  
-                
-             
-                
-             
-
-             <div class="slider-card">
-               <div class="slider-card-image">
-                 <img src="/images/Ellipse 21.png" alt="" />
-               </div>
- 
-               <div class="slider-card-content">
-                 <span>Kate Jayden </span>
-                 <span style="font-size: 13px; font-weight: 400">
-                   @decajayden</span>
-                 <p>Tri Athlete and Whole Supp ambassador</p>
-               </div>
-               <div class="line"></div>
-               <p>
-                 “Incredible product that helps me get meals on the go or after
-                 a late night run. I love that the packaging is plastic free
-                 and home compostable. It also tastes great.”
-               </p>
-             </div>
-
-             <div class="slider-card">
-               <div class="slider-card-image">
-                 <img src="/images/Ellipse 21.png" alt="" />
-               </div>
- 
-               <div class="slider-card-content">
-                 <span>Kate Jayden </span>
-                 <span style="font-size: 13px; font-weight: 400">
-                   @decajayden</span>
-                 <p>Tri Athlete and Whole Supp ambassador</p>
-               </div>
-               <div class="line"></div>
-               <p>
-                 “Incredible product that helps me get meals on the go or after
-                 a late night run. I love that the packaging is plastic free
-                 and home compostable. It also tastes great.”
-               </p>
-             </div>
-              </div> -->
-          <!-- Swiper JS -->
-
           <div class="slider-container">
+            <svg class="slider-card-mobil-next custom-button-next " style="display: none;"
+              xmlns="http://www.w3.org/2000/svg" width="29" height="27" viewBox="0 0 29 27" fill="none">
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M19.2477 10.3495C16.7145 7.81634 15.2913 4.38058 15.2913 0.798096L16.4054 0.798096C16.4054 4.08512 17.7111 7.23752 20.0354 9.56179C22.3597 11.8861 25.5121 13.1918 28.7991 13.1918V13.3133V14.3059V14.4273C25.5121 14.4273 22.3597 15.7331 20.0354 18.0574C17.7111 20.3817 16.4054 23.534 16.4054 26.8211H15.2913C15.2913 23.2386 16.7145 19.8028 19.2477 17.2696C20.4986 16.0187 21.9696 15.0385 23.5697 14.3666L0.627441 14.3666L0.627441 13.2526L23.5698 13.2526C21.9697 12.5807 20.4986 11.6005 19.2477 10.3495Z"
+                fill="black" />
+            </svg>
+
+            <svg class="slider-card-mobil-prev custom-button-prev" xmlns="http://www.w3.org/2000/svg"
+              style="display: none;" width="29" height="27" viewBox="0 0 29 27" fill="none">
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M9.75257 10.3495C12.2858 7.81634 13.7089 4.38058 13.7089 0.798096L12.5949 0.798096C12.5949 4.08512 11.2891 7.23752 8.96483 9.56179C6.64055 11.8861 3.48815 13.1918 0.20113 13.1918V13.3133V14.3059V14.4273C3.48815 14.4273 6.64055 15.7331 8.96483 18.0574C11.2891 20.3817 12.5949 23.534 12.5949 26.8211H13.7089C13.7089 23.2386 12.2858 19.8028 9.75257 17.2696C8.50166 16.0187 7.03066 15.0385 5.43059 14.3666L28.3728 14.3666V13.2526L5.43044 13.2526C7.03057 12.5807 8.50162 11.6005 9.75257 10.3495Z"
+                fill="black" />
+            </svg>
+
             <div class="swiper mySwiper">
-              <div class="swiper-wrapper">
+              <div class="swiper-wrapper  lifestyles-wrapper  ">
 
                 <div class="swiper-slide">
 
-                 <div class="slider-card">
-               <div class="slider-card-image">
-                 <img src="/images/Ellipse 21.png" alt="" />
-               </div>
- 
-               <div class="slider-card-content">
-                 <span>Kate Jayden </span>
-                 <span style="font-size: 13px; font-weight: 400">
-                   @decajayden</span>
-                 <p>Tri Athlete and Whole Supp ambassador</p>
-               </div>
-               <div class="line"></div>
-               <p>
-                 “Incredible product that helps me get meals on the go or after
-                 a late night run. I love that the packaging is plastic free
-                 and home compostable. It also tastes great.”
-               </p>
-             </div>
-               
-                
+                  <div class="slider-card">
+                    <div class="slider-card-image">
+
+                      <img src="/images/Ellipse 21.png" alt="" />
+
+                    </div>
+
+                    <div class="slider-card-content">
+                      <span>Kate Jayden </span>
+                      <span style="font-size: 13px; font-weight: 400">
+                        @decajayden</span>
+                      <p>Tri Athlete and Whole Supp ambassador</p>
+                    </div>
+                    <div class="line"></div>
+                    <p>
+                      “Incredible product that helps me get meals on the go or after
+                      a late night run. I love that the packaging is plastic free
+                      and home compostable. It also tastes great.”
+                    </p>
+                  </div>
+
+
                 </div>
                 <div class="swiper-slide">
 
-                 <div class="slider-card">
-               <div class="slider-card-image">
-                 <img src="/images/Ellipse 21.png" alt="" />
-               </div>
- 
-               <div class="slider-card-content">
-                 <span>Kate Jayden </span>
-                 <span style="font-size: 13px; font-weight: 400">
-                   @decajayden</span>
-                 <p>Tri Athlete and Whole Supp ambassador</p>
-               </div>
-               <div class="line"></div>
-               <p>
-                 “Incredible product that helps me get meals on the go or after
-                 a late night run. I love that the packaging is plastic free
-                 and home compostable. It also tastes great.”
-               </p>
-             </div>
-               
-                
+                  <div class="slider-card">
+                    <div class="slider-card-image">
+                      <img src="/images/Ellipse 21.png" alt="" />
+                    </div>
+
+                    <div class="slider-card-content">
+                      <span>Kate Jayden </span>
+                      <span style="font-size: 13px; font-weight: 400">
+                        @decajayden</span>
+                      <p>Tri Athlete and Whole Supp ambassador</p>
+                    </div>
+                    <div class="line"></div>
+                    <p>
+                      “Incredible product that helps me get meals on the go or after
+                      a late night run. I love that the packaging is plastic free
+                      and home compostable. It also tastes great.”
+                    </p>
+                  </div>
+
+
                 </div>
                 <div class="swiper-slide">
 
-                 <div class="slider-card">
-               <div class="slider-card-image">
-                 <img src="/images/Ellipse 21.png" alt="" />
-               </div>
- 
-               <div class="slider-card-content">
-                 <span>Kate Jayden </span>
-                 <span style="font-size: 13px; font-weight: 400">
-                   @decajayden</span>
-                 <p>Tri Athlete and Whole Supp ambassador</p>
-               </div>
-               <div class="line"></div>
-               <p>
-                 “Incredible product that helps me get meals on the go or after
-                 a late night run. I love that the packaging is plastic free
-                 and home compostable. It also tastes great.”
-               </p>
-             </div>
-               
-                
+                  <div class="slider-card">
+                    <div class="slider-card-image">
+                      <img src="/images/Ellipse 21.png" alt="" />
+                    </div>
+
+                    <div class="slider-card-content">
+                      <span>Kate Jayden </span>
+                      <span style="font-size: 13px; font-weight: 400">
+                        @decajayden</span>
+                      <p>Tri Athlete and Whole Supp ambassador</p>
+                    </div>
+                    <div class="line"></div>
+                    <p>
+                      “Incredible product that helps me get meals on the go or after
+                      a late night run. I love that the packaging is plastic free
+                      and home compostable. It also tastes great.”
+                    </p>
+                  </div>
+
+
                 </div>
 
 
                 <div class="swiper-slide">
                   <div class="slider-card">
 
-               <div class="slider-card-image">
-                 <img src="/images/Ellipse 21.png" alt="" />
-               </div>
- 
-               <div class="slider-card-content">
-                 <span>Kate Jayden </span>
-                 <span style="font-size: 13px; font-weight: 400">
-                   @decajayden</span>
-                 <p>Tri Athlete and Whole Supp ambassador</p>
-               </div>
-               <div class="line"></div>
-               <p>
-                 “Incredible product that helps me get meals on the go or after
-                 a late night run. I love that the packaging is plastic free
-                 and home compostable. It also tastes great.”
-               </p>
-             </div>
-            </div>
+                    <div class="slider-card-image">
+                      <img src="/images/Ellipse 21.png" alt="" />
+                    </div>
+
+                    <div class="slider-card-content">
+                      <span>Kate Jayden </span>
+                      <span style="font-size: 13px; font-weight: 400">
+                        @decajayden</span>
+                      <p>Tri Athlete and Whole Supp ambassador</p>
+                    </div>
+                    <div class="line"></div>
+                    <p>
+                      “Incredible product that helps me get meals on the go or after
+                      a late night run. I love that the packaging is plastic free
+                      and home compostable. It also tastes great.”
+                    </p>
+                  </div>
+                </div>
 
 
                 <div class="swiper-slide">
                   <div class="slider-card">
-               <div class="slider-card-image">
-                 <img src="/images/Ellipse 21.png" alt="" />
-               </div>
- 
-               <div class="slider-card-content">
-                 <span>Kate Jayden </span>
-                 <span style="font-size: 13px; font-weight: 400">
-                   @decajayden</span>
-                 <p>Tri Athlete and Whole Supp ambassador</p>
-               </div>
-               <div class="line"></div>
-               <p>
-                 “Incredible product that helps me get meals on the go or after
-                 a late night run. I love that the packaging is plastic free
-                 and home compostable. It also tastes great.”
-               </p>
-             </div>
-            </div>
+                    <div class="slider-card-image">
+                      <img src="/images/Ellipse 21.png" alt="" />
+                    </div>
 
-                
-            <div class="swiper-slide">
+                    <div class="slider-card-content">
+                      <span>Kate Jayden </span>
+                      <span style="font-size: 13px; font-weight: 400">
+                        @decajayden</span>
+                      <p>Tri Athlete and Whole Supp ambassador</p>
+                    </div>
+                    <div class="line"></div>
+                    <p>
+                      “Incredible product that helps me get meals on the go or after
+                      a late night run. I love that the packaging is plastic free
+                      and home compostable. It also tastes great.”
+                    </p>
+                  </div>
+                </div>
+
+
+                <div class="swiper-slide">
                   <div class="slider-card">
-               <div class="slider-card-image">
-                 <img src="/images/Ellipse 21.png" alt="" />
-               </div>
- 
-               <div class="slider-card-content">
-                 <span>Kate Jayden </span>
-                 <span style="font-size: 13px; font-weight: 400">
-                   @decajayden</span>
-                 <p>Tri Athlete and Whole Supp ambassador</p>
-               </div>
-               <div class="line"></div>
-               <p>
-                 “Incredible product that helps me get meals on the go or after
-                 a late night run. I love that the packaging is plastic free
-                 and home compostable. It also tastes great.”
-               </p>
-             </div>
+                    <div class="slider-card-image">
+                      <img src="/images/Ellipse 21.png" alt="" />
+                    </div>
 
-            </div>
-               
+                    <div class="slider-card-content">
+                      <span>Kate Jayden </span>
+                      <span style="font-size: 13px; font-weight: 400">
+                        @decajayden</span>
+                      <p>Tri Athlete and Whole Supp ambassador</p>
+                    </div>
+                    <div class="line"></div>
+                    <p>
+                      “Incredible product that helps me get meals on the go or after
+                      a late night run. I love that the packaging is plastic free
+                      and home compostable. It also tastes great.”
+                    </p>
+                  </div>
+
+                </div>
+
               </div>
-            
+
             </div>
           </div>
 
@@ -468,184 +451,293 @@
               <span style="font-size: 16px;font-style: normal;font-weight: 400;line-height: 140%;">4.9 based on <span
                   style="font-weight: 600 ;text-decoration: underline;"> 160 reviews</span></span>
             </div>
-            <div class="slider-button">
-              <svg xmlns="http://www.w3.org/2000/svg" width="37" height="38" viewBox="0 0 37 38" fill="none">
-                <rect x="-0.5" y="0.5" width="35.9923" height="35.9923" rx="17.9962"
-                  transform="matrix(-1 0 0 1 35.9923 0.040802)" fill="white" stroke="black" />
-                <path d="M20.4962 22.537L16.4962 18.537L20.4962 14.537" stroke="black" stroke-width="2"
-                  stroke-linejoin="round" />
-              </svg>
+            <div class="slider-button" style="display: flex; gap: 5px;">
+              <div class="custom-button-prev-2" style="cursor: pointer;">
+                <svg xmlns="http://www.w3.org/2000/svg" width="37" height="38" viewBox="0 0 37 38" fill="none">
+                  <rect x="-0.5" y="0.5" width="35.9923" height="35.9923" rx="17.9962"
+                    transform="matrix(-1 0 0 1 35.9923 0.040802)" fill="white" stroke="black" />
+                  <path d="M20.4962 22.537L16.4962 18.537L20.4962 14.537" stroke="black" stroke-width="2"
+                    stroke-linejoin="round" />
+                </svg>
+              </div>
 
-              <svg xmlns="http://www.w3.org/2000/svg" width="37" height="38" viewBox="0 0 37 38" fill="none">
-                <rect x="0.50769" y="0.540802" width="35.9923" height="35.9923" rx="17.9962" fill="white"
-                  stroke="black" />
-                <path d="M16.5038 22.537L20.5038 18.537L16.5038 14.537" stroke="black" stroke-width="2"
-                  stroke-linejoin="round" />
-              </svg>
+              <div class="custom-button-next-2" style="cursor: pointer;">
+                <svg xmlns="http://www.w3.org/2000/svg" width="37" height="38" viewBox="0 0 37 38" fill="none">
+                  <rect x="0.50769" y="0.540802" width="35.9923" height="35.9923" rx="17.9962" fill="white"
+                    stroke="black" />
+                  <path d="M16.5038 22.537L20.5038 18.537L16.5038 14.537" stroke="black" stroke-width="2"
+                    stroke-linejoin="round" />
+                </svg>
+              </div>
 
             </div>
           </div>
           <!-- review card -->
-          <div class="review-cards">
-            <div class="review-single-card">
-              <div class="card-star">
-                <svg xmlns="http://www.w3.org/2000/svg" width="19" height="18" viewBox="0 0 19 18" fill="none">
-                  <path
-                    d="M9.86675 0.372375L12.0142 7.01547H18.9634L13.3413 11.1211L15.4888 17.7641L9.86675 13.6585L4.24484 17.7641L6.39218 11.1211L0.770264 7.01547H7.7194L9.86675 0.372375Z"
-                    fill="black" />
-                </svg>
-                <svg xmlns="http://www.w3.org/2000/svg" width="19" height="18" viewBox="0 0 19 18" fill="none">
-                  <path
-                    d="M9.86675 0.372375L12.0142 7.01547H18.9634L13.3413 11.1211L15.4888 17.7641L9.86675 13.6585L4.24484 17.7641L6.39218 11.1211L0.770264 7.01547H7.7194L9.86675 0.372375Z"
-                    fill="black" />
-                </svg>
-                <svg xmlns="http://www.w3.org/2000/svg" width="19" height="18" viewBox="0 0 19 18" fill="none">
-                  <path
-                    d="M9.86675 0.372375L12.0142 7.01547H18.9634L13.3413 11.1211L15.4888 17.7641L9.86675 13.6585L4.24484 17.7641L6.39218 11.1211L0.770264 7.01547H7.7194L9.86675 0.372375Z"
-                    fill="black" />
-                </svg>
-                <svg xmlns="http://www.w3.org/2000/svg" width="19" height="18" viewBox="0 0 19 18" fill="none">
-                  <path
-                    d="M9.86675 0.372375L12.0142 7.01547H18.9634L13.3413 11.1211L15.4888 17.7641L9.86675 13.6585L4.24484 17.7641L6.39218 11.1211L0.770264 7.01547H7.7194L9.86675 0.372375Z"
-                    fill="black" />
-                </svg>
-                <svg xmlns="http://www.w3.org/2000/svg" width="19" height="18" viewBox="0 0 19 18" fill="none">
-                  <path
-                    d="M9.86675 0.372375L12.0142 7.01547H18.9634L13.3413 11.1211L15.4888 17.7641L9.86675 13.6585L4.24484 17.7641L6.39218 11.1211L0.770264 7.01547H7.7194L9.86675 0.372375Z"
-                    fill="black" />
-                </svg>
-              </div>
-              <p>
-                “This is hands down the best shake out there. I’ve tried
-                multiple brands in the past but nothing compares to Whole
-                Supp. Both chocolate and vanilla tastes as amazing...”
-              </p>
 
-              <div class="reviewr-details">
-                <h4>Adam Colman - London</h4>
-                <img width="138" height="19" src="/images/Screenshot 2023-11-16 at 13.25 1.png" alt="" />
-              </div>
-            </div>
-            <div class="review-single-card">
-              <div class="card-star">
-                <svg xmlns="http://www.w3.org/2000/svg" width="19" height="18" viewBox="0 0 19 18" fill="none">
-                  <path
-                    d="M9.86675 0.372375L12.0142 7.01547H18.9634L13.3413 11.1211L15.4888 17.7641L9.86675 13.6585L4.24484 17.7641L6.39218 11.1211L0.770264 7.01547H7.7194L9.86675 0.372375Z"
-                    fill="black" />
-                </svg>
-                <svg xmlns="http://www.w3.org/2000/svg" width="19" height="18" viewBox="0 0 19 18" fill="none">
-                  <path
-                    d="M9.86675 0.372375L12.0142 7.01547H18.9634L13.3413 11.1211L15.4888 17.7641L9.86675 13.6585L4.24484 17.7641L6.39218 11.1211L0.770264 7.01547H7.7194L9.86675 0.372375Z"
-                    fill="black" />
-                </svg>
-                <svg xmlns="http://www.w3.org/2000/svg" width="19" height="18" viewBox="0 0 19 18" fill="none">
-                  <path
-                    d="M9.86675 0.372375L12.0142 7.01547H18.9634L13.3413 11.1211L15.4888 17.7641L9.86675 13.6585L4.24484 17.7641L6.39218 11.1211L0.770264 7.01547H7.7194L9.86675 0.372375Z"
-                    fill="black" />
-                </svg>
-                <svg xmlns="http://www.w3.org/2000/svg" width="19" height="18" viewBox="0 0 19 18" fill="none">
-                  <path
-                    d="M9.86675 0.372375L12.0142 7.01547H18.9634L13.3413 11.1211L15.4888 17.7641L9.86675 13.6585L4.24484 17.7641L6.39218 11.1211L0.770264 7.01547H7.7194L9.86675 0.372375Z"
-                    fill="black" />
-                </svg>
-                <svg xmlns="http://www.w3.org/2000/svg" width="19" height="18" viewBox="0 0 19 18" fill="none">
-                  <path
-                    d="M9.86675 0.372375L12.0142 7.01547H18.9634L13.3413 11.1211L15.4888 17.7641L9.86675 13.6585L4.24484 17.7641L6.39218 11.1211L0.770264 7.01547H7.7194L9.86675 0.372375Z"
-                    fill="black" />
-                </svg>
-              </div>
-              <p>
-                “This is hands down the best shake out there. I’ve tried
-                multiple brands in the past but nothing compares to Whole
-                Supp. Both chocolate and vanilla tastes as amazing...”
-              </p>
+          <div class="swiper review-slide mySwiper-2">
 
-              <div class="reviewr-details">
-                <h4>Adam Colman - London</h4>
-                <img width="138" height="19" src="/images/Screenshot 2023-11-16 at 13.25 1.png" alt="" />
-              </div>
-            </div>
-            <div class="review-single-card">
-              <div class="card-star">
-                <svg xmlns="http://www.w3.org/2000/svg" width="19" height="18" viewBox="0 0 19 18" fill="none">
-                  <path
-                    d="M9.86675 0.372375L12.0142 7.01547H18.9634L13.3413 11.1211L15.4888 17.7641L9.86675 13.6585L4.24484 17.7641L6.39218 11.1211L0.770264 7.01547H7.7194L9.86675 0.372375Z"
-                    fill="black" />
-                </svg>
-                <svg xmlns="http://www.w3.org/2000/svg" width="19" height="18" viewBox="0 0 19 18" fill="none">
-                  <path
-                    d="M9.86675 0.372375L12.0142 7.01547H18.9634L13.3413 11.1211L15.4888 17.7641L9.86675 13.6585L4.24484 17.7641L6.39218 11.1211L0.770264 7.01547H7.7194L9.86675 0.372375Z"
-                    fill="black" />
-                </svg>
-                <svg xmlns="http://www.w3.org/2000/svg" width="19" height="18" viewBox="0 0 19 18" fill="none">
-                  <path
-                    d="M9.86675 0.372375L12.0142 7.01547H18.9634L13.3413 11.1211L15.4888 17.7641L9.86675 13.6585L4.24484 17.7641L6.39218 11.1211L0.770264 7.01547H7.7194L9.86675 0.372375Z"
-                    fill="black" />
-                </svg>
-                <svg xmlns="http://www.w3.org/2000/svg" width="19" height="18" viewBox="0 0 19 18" fill="none">
-                  <path
-                    d="M9.86675 0.372375L12.0142 7.01547H18.9634L13.3413 11.1211L15.4888 17.7641L9.86675 13.6585L4.24484 17.7641L6.39218 11.1211L0.770264 7.01547H7.7194L9.86675 0.372375Z"
-                    fill="black" />
-                </svg>
-                <svg xmlns="http://www.w3.org/2000/svg" width="19" height="18" viewBox="0 0 19 18" fill="none">
-                  <path
-                    d="M9.86675 0.372375L12.0142 7.01547H18.9634L13.3413 11.1211L15.4888 17.7641L9.86675 13.6585L4.24484 17.7641L6.39218 11.1211L0.770264 7.01547H7.7194L9.86675 0.372375Z"
-                    fill="black" />
-                </svg>
-              </div>
-              <p>
-                “This is hands down the best shake out there. I’ve tried
-                multiple brands in the past but nothing compares to Whole
-                Supp. Both chocolate and vanilla tastes as amazing...”
-              </p>
+            <div class="swiper-wrapper" id="review-slide-wrapper">
 
-              <div class="reviewr-details">
-                <h4>Adam Colman - London</h4>
-                <img width="138" height="19" src="/images/Screenshot 2023-11-16 at 13.25 1.png" alt="" />
-              </div>
-            </div>
-            <div class="review-single-card">
-              <div class="card-star">
-                <svg xmlns="http://www.w3.org/2000/svg" width="19" height="18" viewBox="0 0 19 18" fill="none">
-                  <path
-                    d="M9.86675 0.372375L12.0142 7.01547H18.9634L13.3413 11.1211L15.4888 17.7641L9.86675 13.6585L4.24484 17.7641L6.39218 11.1211L0.770264 7.01547H7.7194L9.86675 0.372375Z"
-                    fill="black" />
-                </svg>
-                <svg xmlns="http://www.w3.org/2000/svg" width="19" height="18" viewBox="0 0 19 18" fill="none">
-                  <path
-                    d="M9.86675 0.372375L12.0142 7.01547H18.9634L13.3413 11.1211L15.4888 17.7641L9.86675 13.6585L4.24484 17.7641L6.39218 11.1211L0.770264 7.01547H7.7194L9.86675 0.372375Z"
-                    fill="black" />
-                </svg>
-                <svg xmlns="http://www.w3.org/2000/svg" width="19" height="18" viewBox="0 0 19 18" fill="none">
-                  <path
-                    d="M9.86675 0.372375L12.0142 7.01547H18.9634L13.3413 11.1211L15.4888 17.7641L9.86675 13.6585L4.24484 17.7641L6.39218 11.1211L0.770264 7.01547H7.7194L9.86675 0.372375Z"
-                    fill="black" />
-                </svg>
-                <svg xmlns="http://www.w3.org/2000/svg" width="19" height="18" viewBox="0 0 19 18" fill="none">
-                  <path
-                    d="M9.86675 0.372375L12.0142 7.01547H18.9634L13.3413 11.1211L15.4888 17.7641L9.86675 13.6585L4.24484 17.7641L6.39218 11.1211L0.770264 7.01547H7.7194L9.86675 0.372375Z"
-                    fill="black" />
-                </svg>
-                <svg xmlns="http://www.w3.org/2000/svg" width="19" height="18" viewBox="0 0 19 18" fill="none">
-                  <path
-                    d="M9.86675 0.372375L12.0142 7.01547H18.9634L13.3413 11.1211L15.4888 17.7641L9.86675 13.6585L4.24484 17.7641L6.39218 11.1211L0.770264 7.01547H7.7194L9.86675 0.372375Z"
-                    fill="black" />
-                </svg>
-              </div>
-              <p>
-                “This is hands down the best shake out there. I’ve tried
-                multiple brands in the past but nothing compares to Whole
-                Supp. Both chocolate and vanilla tastes as amazing...”
-              </p>
 
-              <div class="reviewr-details">
-                <h4>Adam Colman - London</h4>
-                <img width="138" height="19" src="/images/Screenshot 2023-11-16 at 13.25 1.png" alt="" />
+              <div class="swiper-slide">
+                <div class="review-single-card">
+                  <div class="card-star">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="19" height="18" viewBox="0 0 19 18" fill="none">
+                      <path
+                        d="M9.86675 0.372375L12.0142 7.01547H18.9634L13.3413 11.1211L15.4888 17.7641L9.86675 13.6585L4.24484 17.7641L6.39218 11.1211L0.770264 7.01547H7.7194L9.86675 0.372375Z"
+                        fill="black" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="19" height="18" viewBox="0 0 19 18" fill="none">
+                      <path
+                        d="M9.86675 0.372375L12.0142 7.01547H18.9634L13.3413 11.1211L15.4888 17.7641L9.86675 13.6585L4.24484 17.7641L6.39218 11.1211L0.770264 7.01547H7.7194L9.86675 0.372375Z"
+                        fill="black" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="19" height="18" viewBox="0 0 19 18" fill="none">
+                      <path
+                        d="M9.86675 0.372375L12.0142 7.01547H18.9634L13.3413 11.1211L15.4888 17.7641L9.86675 13.6585L4.24484 17.7641L6.39218 11.1211L0.770264 7.01547H7.7194L9.86675 0.372375Z"
+                        fill="black" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="19" height="18" viewBox="0 0 19 18" fill="none">
+                      <path
+                        d="M9.86675 0.372375L12.0142 7.01547H18.9634L13.3413 11.1211L15.4888 17.7641L9.86675 13.6585L4.24484 17.7641L6.39218 11.1211L0.770264 7.01547H7.7194L9.86675 0.372375Z"
+                        fill="black" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="19" height="18" viewBox="0 0 19 18" fill="none">
+                      <path
+                        d="M9.86675 0.372375L12.0142 7.01547H18.9634L13.3413 11.1211L15.4888 17.7641L9.86675 13.6585L4.24484 17.7641L6.39218 11.1211L0.770264 7.01547H7.7194L9.86675 0.372375Z"
+                        fill="black" />
+                    </svg>
+                  </div>
+                  <p>
+                    “This is hands down the best shake out there. I’ve tried
+                    multiple brands in the past but nothing compares to Whole
+                    Supp. Both chocolate and vanilla tastes as amazing...”
+                  </p>
+
+                  <div class="reviewr-details">
+                    <h4>Adam Colman - London</h4>
+                    <img width="138" height="19" src="/images/Screenshot 2023-11-16 at 13.25 1.png" alt="" />
+                  </div>
+                </div>
+
               </div>
+              <div class="swiper-slide">
+                <div class="review-single-card">
+                  <div class="card-star">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="19" height="18" viewBox="0 0 19 18" fill="none">
+                      <path
+                        d="M9.86675 0.372375L12.0142 7.01547H18.9634L13.3413 11.1211L15.4888 17.7641L9.86675 13.6585L4.24484 17.7641L6.39218 11.1211L0.770264 7.01547H7.7194L9.86675 0.372375Z"
+                        fill="black" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="19" height="18" viewBox="0 0 19 18" fill="none">
+                      <path
+                        d="M9.86675 0.372375L12.0142 7.01547H18.9634L13.3413 11.1211L15.4888 17.7641L9.86675 13.6585L4.24484 17.7641L6.39218 11.1211L0.770264 7.01547H7.7194L9.86675 0.372375Z"
+                        fill="black" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="19" height="18" viewBox="0 0 19 18" fill="none">
+                      <path
+                        d="M9.86675 0.372375L12.0142 7.01547H18.9634L13.3413 11.1211L15.4888 17.7641L9.86675 13.6585L4.24484 17.7641L6.39218 11.1211L0.770264 7.01547H7.7194L9.86675 0.372375Z"
+                        fill="black" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="19" height="18" viewBox="0 0 19 18" fill="none">
+                      <path
+                        d="M9.86675 0.372375L12.0142 7.01547H18.9634L13.3413 11.1211L15.4888 17.7641L9.86675 13.6585L4.24484 17.7641L6.39218 11.1211L0.770264 7.01547H7.7194L9.86675 0.372375Z"
+                        fill="black" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="19" height="18" viewBox="0 0 19 18" fill="none">
+                      <path
+                        d="M9.86675 0.372375L12.0142 7.01547H18.9634L13.3413 11.1211L15.4888 17.7641L9.86675 13.6585L4.24484 17.7641L6.39218 11.1211L0.770264 7.01547H7.7194L9.86675 0.372375Z"
+                        fill="black" />
+                    </svg>
+                  </div>
+                  <p>
+                    “This is hands down the best shake out there. I’ve tried
+                    multiple brands in the past but nothing compares to Whole
+                    Supp. Both chocolate and vanilla tastes as amazing...”
+                  </p>
+
+                  <div class="reviewr-details">
+                    <h4>Adam Colman - London</h4>
+                    <img width="138" height="19" src="/images/Screenshot 2023-11-16 at 13.25 1.png" alt="" />
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="review-single-card">
+                  <div class="card-star">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="19" height="18" viewBox="0 0 19 18" fill="none">
+                      <path
+                        d="M9.86675 0.372375L12.0142 7.01547H18.9634L13.3413 11.1211L15.4888 17.7641L9.86675 13.6585L4.24484 17.7641L6.39218 11.1211L0.770264 7.01547H7.7194L9.86675 0.372375Z"
+                        fill="black" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="19" height="18" viewBox="0 0 19 18" fill="none">
+                      <path
+                        d="M9.86675 0.372375L12.0142 7.01547H18.9634L13.3413 11.1211L15.4888 17.7641L9.86675 13.6585L4.24484 17.7641L6.39218 11.1211L0.770264 7.01547H7.7194L9.86675 0.372375Z"
+                        fill="black" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="19" height="18" viewBox="0 0 19 18" fill="none">
+                      <path
+                        d="M9.86675 0.372375L12.0142 7.01547H18.9634L13.3413 11.1211L15.4888 17.7641L9.86675 13.6585L4.24484 17.7641L6.39218 11.1211L0.770264 7.01547H7.7194L9.86675 0.372375Z"
+                        fill="black" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="19" height="18" viewBox="0 0 19 18" fill="none">
+                      <path
+                        d="M9.86675 0.372375L12.0142 7.01547H18.9634L13.3413 11.1211L15.4888 17.7641L9.86675 13.6585L4.24484 17.7641L6.39218 11.1211L0.770264 7.01547H7.7194L9.86675 0.372375Z"
+                        fill="black" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="19" height="18" viewBox="0 0 19 18" fill="none">
+                      <path
+                        d="M9.86675 0.372375L12.0142 7.01547H18.9634L13.3413 11.1211L15.4888 17.7641L9.86675 13.6585L4.24484 17.7641L6.39218 11.1211L0.770264 7.01547H7.7194L9.86675 0.372375Z"
+                        fill="black" />
+                    </svg>
+                  </div>
+                  <p>
+                    “This is hands down the best shake out there. I’ve tried
+                    multiple brands in the past but nothing compares to Whole
+                    Supp. Both chocolate and vanilla tastes as amazing...”
+                  </p>
+
+                  <div class="reviewr-details">
+                    <h4>Adam Colman - London</h4>
+                    <img width="138" height="19" src="/images/Screenshot 2023-11-16 at 13.25 1.png" alt="" />
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="review-single-card">
+                  <div class="card-star">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="19" height="18" viewBox="0 0 19 18" fill="none">
+                      <path
+                        d="M9.86675 0.372375L12.0142 7.01547H18.9634L13.3413 11.1211L15.4888 17.7641L9.86675 13.6585L4.24484 17.7641L6.39218 11.1211L0.770264 7.01547H7.7194L9.86675 0.372375Z"
+                        fill="black" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="19" height="18" viewBox="0 0 19 18" fill="none">
+                      <path
+                        d="M9.86675 0.372375L12.0142 7.01547H18.9634L13.3413 11.1211L15.4888 17.7641L9.86675 13.6585L4.24484 17.7641L6.39218 11.1211L0.770264 7.01547H7.7194L9.86675 0.372375Z"
+                        fill="black" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="19" height="18" viewBox="0 0 19 18" fill="none">
+                      <path
+                        d="M9.86675 0.372375L12.0142 7.01547H18.9634L13.3413 11.1211L15.4888 17.7641L9.86675 13.6585L4.24484 17.7641L6.39218 11.1211L0.770264 7.01547H7.7194L9.86675 0.372375Z"
+                        fill="black" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="19" height="18" viewBox="0 0 19 18" fill="none">
+                      <path
+                        d="M9.86675 0.372375L12.0142 7.01547H18.9634L13.3413 11.1211L15.4888 17.7641L9.86675 13.6585L4.24484 17.7641L6.39218 11.1211L0.770264 7.01547H7.7194L9.86675 0.372375Z"
+                        fill="black" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="19" height="18" viewBox="0 0 19 18" fill="none">
+                      <path
+                        d="M9.86675 0.372375L12.0142 7.01547H18.9634L13.3413 11.1211L15.4888 17.7641L9.86675 13.6585L4.24484 17.7641L6.39218 11.1211L0.770264 7.01547H7.7194L9.86675 0.372375Z"
+                        fill="black" />
+                    </svg>
+                  </div>
+                  <p>
+                    “This is hands down the best shake out there. I’ve tried
+                    multiple brands in the past but nothing compares to Whole
+                    Supp. Both chocolate and vanilla tastes as amazing...”
+                  </p>
+
+                  <div class="reviewr-details">
+                    <h4>Adam Colman - London</h4>
+                    <img width="138" height="19" src="/images/Screenshot 2023-11-16 at 13.25 1.png" alt="" />
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="review-single-card">
+                  <div class="card-star">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="19" height="18" viewBox="0 0 19 18" fill="none">
+                      <path
+                        d="M9.86675 0.372375L12.0142 7.01547H18.9634L13.3413 11.1211L15.4888 17.7641L9.86675 13.6585L4.24484 17.7641L6.39218 11.1211L0.770264 7.01547H7.7194L9.86675 0.372375Z"
+                        fill="black" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="19" height="18" viewBox="0 0 19 18" fill="none">
+                      <path
+                        d="M9.86675 0.372375L12.0142 7.01547H18.9634L13.3413 11.1211L15.4888 17.7641L9.86675 13.6585L4.24484 17.7641L6.39218 11.1211L0.770264 7.01547H7.7194L9.86675 0.372375Z"
+                        fill="black" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="19" height="18" viewBox="0 0 19 18" fill="none">
+                      <path
+                        d="M9.86675 0.372375L12.0142 7.01547H18.9634L13.3413 11.1211L15.4888 17.7641L9.86675 13.6585L4.24484 17.7641L6.39218 11.1211L0.770264 7.01547H7.7194L9.86675 0.372375Z"
+                        fill="black" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="19" height="18" viewBox="0 0 19 18" fill="none">
+                      <path
+                        d="M9.86675 0.372375L12.0142 7.01547H18.9634L13.3413 11.1211L15.4888 17.7641L9.86675 13.6585L4.24484 17.7641L6.39218 11.1211L0.770264 7.01547H7.7194L9.86675 0.372375Z"
+                        fill="black" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="19" height="18" viewBox="0 0 19 18" fill="none">
+                      <path
+                        d="M9.86675 0.372375L12.0142 7.01547H18.9634L13.3413 11.1211L15.4888 17.7641L9.86675 13.6585L4.24484 17.7641L6.39218 11.1211L0.770264 7.01547H7.7194L9.86675 0.372375Z"
+                        fill="black" />
+                    </svg>
+                  </div>
+                  <p>
+                    “This is hands down the best shake out there. I’ve tried
+                    multiple brands in the past but nothing compares to Whole
+                    Supp. Both chocolate and vanilla tastes as amazing...”
+                  </p>
+
+                  <div class="reviewr-details">
+                    <h4>Adam Colman - London</h4>
+                    <img width="138" height="19" src="/images/Screenshot 2023-11-16 at 13.25 1.png" alt="" />
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="review-single-card">
+                  <div class="card-star">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="19" height="18" viewBox="0 0 19 18" fill="none">
+                      <path
+                        d="M9.86675 0.372375L12.0142 7.01547H18.9634L13.3413 11.1211L15.4888 17.7641L9.86675 13.6585L4.24484 17.7641L6.39218 11.1211L0.770264 7.01547H7.7194L9.86675 0.372375Z"
+                        fill="black" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="19" height="18" viewBox="0 0 19 18" fill="none">
+                      <path
+                        d="M9.86675 0.372375L12.0142 7.01547H18.9634L13.3413 11.1211L15.4888 17.7641L9.86675 13.6585L4.24484 17.7641L6.39218 11.1211L0.770264 7.01547H7.7194L9.86675 0.372375Z"
+                        fill="black" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="19" height="18" viewBox="0 0 19 18" fill="none">
+                      <path
+                        d="M9.86675 0.372375L12.0142 7.01547H18.9634L13.3413 11.1211L15.4888 17.7641L9.86675 13.6585L4.24484 17.7641L6.39218 11.1211L0.770264 7.01547H7.7194L9.86675 0.372375Z"
+                        fill="black" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="19" height="18" viewBox="0 0 19 18" fill="none">
+                      <path
+                        d="M9.86675 0.372375L12.0142 7.01547H18.9634L13.3413 11.1211L15.4888 17.7641L9.86675 13.6585L4.24484 17.7641L6.39218 11.1211L0.770264 7.01547H7.7194L9.86675 0.372375Z"
+                        fill="black" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="19" height="18" viewBox="0 0 19 18" fill="none">
+                      <path
+                        d="M9.86675 0.372375L12.0142 7.01547H18.9634L13.3413 11.1211L15.4888 17.7641L9.86675 13.6585L4.24484 17.7641L6.39218 11.1211L0.770264 7.01547H7.7194L9.86675 0.372375Z"
+                        fill="black" />
+                    </svg>
+                  </div>
+                  <p>
+                    “This is hands down the best shake out there. I’ve tried
+                    multiple brands in the past but nothing compares to Whole
+                    Supp. Both chocolate and vanilla tastes as amazing...”
+                  </p>
+
+                  <div class="reviewr-details">
+                    <h4>Adam Colman - London</h4>
+                    <img width="138" height="19" src="/images/Screenshot 2023-11-16 at 13.25 1.png" alt="" />
+                  </div>
+                </div>
+              </div>
+
+
+
+
+
+
             </div>
+
+
           </div>
         </div>
-      </div>
     </section>
 
     <!-- 13 superfoods to supercharge your day  section-->
@@ -663,7 +755,7 @@
             </div>
 
             <div class="super-foods-slider-container">
-              <div class="prev">
+              <div class="prev SupperFood-prev" style="cursor: pointer;">
                 <svg xmlns="http://www.w3.org/2000/svg" width="37" height="38" viewBox="0 0 37 38" fill="none">
                   <rect x="-0.5" y="0.5" width="35.9923" height="35.9923" rx="17.9962"
                     transform="matrix(-1 0 0 1 35.9923 0.040802)" fill="white" stroke="black" />
@@ -672,7 +764,7 @@
                 </svg>
               </div>
 
-              <div class="next">
+              <div class="next SupperFood-next" style="cursor: pointer;">
                 <svg xmlns="http://www.w3.org/2000/svg" width="37" height="38" viewBox="0 0 37 38" fill="none">
                   <rect x="0.50769" y="0.540802" width="35.9923" height="35.9923" rx="17.9962" fill="white"
                     stroke="black" />
@@ -680,52 +772,147 @@
                     stroke-linejoin="round" />
                 </svg>
               </div>
+              <div class="swiper SupperFoodSwiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
 
-              <div class="super-foods-card">
-                <div class="card-image">
-                  <img src="/images/supperfood/flax-seeds.png" alt=" cherries" />
+                    <div class="super-foods-card">
+                      <div class="card-image">
+                        <img src="/images/supperfood/flax-seeds.png" alt=" cherries" />
 
-                  <div class="img-number">01</div>
+                        <div class="img-number">01</div>
+                      </div>
+
+                      <div class="card-details">
+                        <h4>Flax seeds</h4>
+                        <p>
+                          Improves Recovery, Reduces Inflammation and Supports
+                          Digestion
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="super-foods-card">
+                      <div class="card-image">
+                        <img src="/images/supperfood/spinach.png" alt=" spinach" />
+
+                        <div class="img-number">02</div>
+                      </div>
+
+                      <div class="card-details">
+                        <h4>Flax seeds</h4>
+                        <p>
+                          Improves Recovery, Reduces Inflammation and Supports
+                          Digestion
+                        </p>
+                      </div>
+                    </div>
+
+                  </div>
+                  <div class="swiper-slide">
+
+                    <div class="super-foods-card">
+                      <div class="card-image">
+                        <img src="/images/supperfood/cherries.png" alt=" cherries" />
+
+                        <div class="img-number">03</div>
+                      </div>
+
+                      <div class="card-details">
+                        <h4>Flax seeds</h4>
+                        <p>
+                          Improves Recovery, Reduces Inflammation and Supports
+                          Digestion
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="swiper-slide">
+
+                    <div class="super-foods-card">
+                      <div class="card-image">
+                        <img src="/images/supperfood/cherries.png" alt=" cherries" />
+
+                        <div class="img-number">03</div>
+                      </div>
+
+                      <div class="card-details">
+                        <h4>Flax seeds</h4>
+                        <p>
+                          Improves Recovery, Reduces Inflammation and Supports
+                          Digestion
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="swiper-slide">
+
+                    <div class="super-foods-card">
+                      <div class="card-image">
+                        <img src="/images/supperfood/cherries.png" alt=" cherries" />
+
+                        <div class="img-number">03</div>
+                      </div>
+
+                      <div class="card-details">
+                        <h4>Flax seeds</h4>
+                        <p>
+                          Improves Recovery, Reduces Inflammation and Supports
+                          Digestion
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="swiper-slide">
+
+                    <div class="super-foods-card">
+                      <div class="card-image">
+                        <img src="/images/supperfood/cherries.png" alt=" cherries" />
+
+                        <div class="img-number">03</div>
+                      </div>
+
+                      <div class="card-details">
+                        <h4>Flax seeds</h4>
+                        <p>
+                          Improves Recovery, Reduces Inflammation and Supports
+                          Digestion
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="swiper-slide">
+
+                    <div class="super-foods-card">
+                      <div class="card-image">
+                        <img src="/images/supperfood/cherries.png" alt=" cherries" />
+
+                        <div class="img-number">03</div>
+                      </div>
+
+                      <div class="card-details">
+                        <h4>Flax seeds</h4>
+                        <p>
+                          Improves Recovery, Reduces Inflammation and Supports
+                          Digestion
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+
                 </div>
 
-                <div class="card-details">
-                  <h4>Flax seeds</h4>
-                  <p>
-                    Improves Recovery, Reduces Inflammation and Supports
-                    Digestion
-                  </p>
-                </div>
               </div>
-              <div class="super-foods-card">
-                <div class="card-image">
-                  <img src="/images/supperfood/spinach.png" alt=" spinach" />
 
-                  <div class="img-number">02</div>
-                </div>
 
-                <div class="card-details">
-                  <h4>Flax seeds</h4>
-                  <p>
-                    Improves Recovery, Reduces Inflammation and Supports
-                    Digestion
-                  </p>
-                </div>
-              </div>
-              <div class="super-foods-card">
-                <div class="card-image">
-                  <img src="/images/supperfood/cherries.png" alt=" cherries" />
 
-                  <div class="img-number">03</div>
-                </div>
 
-                <div class="card-details">
-                  <h4>Flax seeds</h4>
-                  <p>
-                    Improves Recovery, Reduces Inflammation and Supports
-                    Digestion
-                  </p>
-                </div>
-              </div>
             </div>
           </div>
           <div class="super-foods-img">
@@ -749,11 +936,13 @@
         <div class="container">
           <div class="us-vs-container">
             <div class="us-content">
-              <h1>Us vs Them</h1>
-              <p>
-                We never shy away from competition. And when we put the
-                industry under the microscope, the facts speak for themselves.
-              </p>
+              <div>
+                <h1>Us vs Them</h1>
+                <p>
+                  We never shy away from competition. And when we put the
+                  industry under the microscope, the facts speak for themselves.
+                </p>
+              </div>
               <img src="/images//usvsthem/hero_MOBILE_4x3_v3 1.png" alt="" />
             </div>
             <div class="us-them-list">
@@ -890,6 +1079,8 @@
           </div>
           <button class="shop-btn put-order-btn">SUBSCRIBE & SAVE</button>
           <p>Only £1.79 per meal vs average UK meal of £10.99</p>
+
+
         </div>
         <div class="put-order-image">
           <img
@@ -1075,6 +1266,7 @@
   </footer>
 
   <!-- Swiper JS -->
+
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   <script src="/js/main.js"></script>
 
