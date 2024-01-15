@@ -82,11 +82,11 @@ const reviewSlider = () => {
     // },
     breakpoints: {
       640: {
-        slidesPerView: 2,
+        slidesPerView: 1,
         spaceBetween: 15,
       },
       768: {
-        slidesPerView: 4,
+        slidesPerView: 2,
         spaceBetween: 18,
       },
       1024: {
@@ -133,7 +133,7 @@ const SupperFoodSlider = () => {
     // },
     breakpoints: {
       640: {
-        slidesPerView: 2,
+        slidesPerView: 3,
         spaceBetween: 15,
       },
       768: {
